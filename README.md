@@ -1,1 +1,1 @@
-# Elephant-Detection-Using-YOLOv5
+# Elephant-Detection
