@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elephant Detection Web Application</title>
+        <link rel="icon" href="https://nehu.ac.in/public/assets/ico/icon.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body bgcolor="#FADADD">
+        <div class="container">
+            <center><h1>Elephant Detection Web Application</h1></center>
+            <center>
+                <div class="img-with-text">
+                    <figure>
+                        <img src="{{ url_for('video_feed') }}" alt="video frame" width="50%" />
+                        <figcaption>Live Streaming</figcaption>
+                    </figure>
+                    
+    
+                </div>
+                <!-- <img src="{{ url_for('video_feed') }}" width="50%"/> -->
+
+            </center>
+        </div>
+    </body>
+</html>
